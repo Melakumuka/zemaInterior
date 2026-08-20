@@ -2,6 +2,7 @@ import { CONTACT, LANGUAGES } from "../data/site";
 import { useToast } from "./Toast";
 import {
   IconFacebook,
+  IconGitHub,
   IconInstagram,
   IconLinkedin,
   IconMail,
@@ -13,6 +14,7 @@ const SOCIAL = [
   { name: "Instagram", url: CONTACT.socials[0].url, Icon: IconInstagram },
   { name: "Facebook", url: CONTACT.socials[1].url, Icon: IconFacebook },
   { name: "LinkedIn", url: CONTACT.socials[2].url, Icon: IconLinkedin },
+  { name: "GitHub", url: CONTACT.github, Icon: IconGitHub },
 ];
 
 export default function TopBar({ collapsed }: { collapsed: boolean }) {

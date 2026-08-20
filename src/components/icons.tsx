@@ -116,6 +116,15 @@ export const IconLinkedin = (p: P) => (
   </svg>
 );
 
+export const IconGitHub = (p: P) => (
+  <svg viewBox="0 0 20 20" {...stroke} {...p}>
+    <path d="M6.5 2.5v10" />
+    <circle cx="15" cy="5" r="2.5" />
+    <circle cx="6.5" cy="15" r="2.5" />
+    <path d="M15 7.5a8.5 8.5 0 0 1-8.5 8.5" />
+  </svg>
+);
+
 export const IconCompass = (p: P) => (
   <svg viewBox="0 0 24 24" {...stroke} {...p}>
     <circle cx="12" cy="12" r="9" />

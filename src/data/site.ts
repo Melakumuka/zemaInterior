@@ -169,6 +169,8 @@ export const CONTACT = {
   phoneHref: "tel:+251718044064",
   email: "info@zemainteriors.et",
   hours: "Mon – Sat · 8:30 – 18:00",
+  github: "https://github.com/zemainteriors",
+  githubHandle: "zemainteriors",
   socials: [
     { name: "Instagram", url: "https://www.instagram.com/" },
     { name: "Facebook", url: "https://www.facebook.com/" },

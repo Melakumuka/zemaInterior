@@ -2,12 +2,13 @@ import { CONTACT, NAV, PROJECTS } from "../data/site";
 import type { Project } from "../data/site";
 import { useReveal } from "../hooks/useReveal";
 import { useToast } from "./Toast";
-import { IconFacebook, IconInstagram, IconLinkedin, Logo } from "./icons";
+import { IconFacebook, IconGitHub, IconInstagram, IconLinkedin, Logo } from "./icons";
 
 const SOCIAL = [
   { name: "Instagram", url: CONTACT.socials[0].url, Icon: IconInstagram },
   { name: "Facebook", url: CONTACT.socials[1].url, Icon: IconFacebook },
   { name: "LinkedIn", url: CONTACT.socials[2].url, Icon: IconLinkedin },
+  { name: "GitHub", url: CONTACT.github, Icon: IconGitHub },
 ];
 
 export default function Footer({ onOpen }: { onOpen: (p: Project) => void }) {
@@ -115,6 +116,15 @@ export default function Footer({ onOpen }: { onOpen: (p: Project) => void }) {
           <div className="flex flex-wrap items-center justify-between gap-4 text-[11px] uppercase tracking-[0.2em] text-paper/40">
             <p>© 2026 Zema Interior and Finishing Works · Bole, Addis Ababa</p>
             <div className="flex items-center gap-6">
+              <a
+                href={CONTACT.github}
+                target="_blank"
+                rel="noreferrer"
+                className="link-line flex items-center gap-2 transition-colors hover:text-bronze-soft"
+              >
+                <IconGitHub className="h-3.5 w-3.5" />
+                View on GitHub
+              </a>
               <button onClick={() => toast("Privacy policy — available on the live site.")} className="link-line transition-colors hover:text-bronze-soft">
                 Privacy policy
               </button>

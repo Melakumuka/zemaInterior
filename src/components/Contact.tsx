@@ -7,6 +7,7 @@ import {
   IconCheck,
   IconClock,
   IconFacebook,
+  IconGitHub,
   IconInstagram,
   IconLinkedin,
   IconMail,
@@ -19,6 +20,7 @@ const SOCIAL = [
   { name: "Instagram", url: CONTACT.socials[0].url, Icon: IconInstagram },
   { name: "Facebook", url: CONTACT.socials[1].url, Icon: IconFacebook },
   { name: "LinkedIn", url: CONTACT.socials[2].url, Icon: IconLinkedin },
+  { name: "GitHub", url: CONTACT.github, Icon: IconGitHub },
 ];
 
 const EMPTY = { name: "", email: "", phone: "", type: "Apartment", message: "" };
@@ -120,8 +122,16 @@ export default function Contact() {
                 <Icon className="h-4 w-4" />
               </a>
             ))}
-            <span className="ml-2 text-[11px] uppercase tracking-[0.24em] text-paper/40">
-              @zema.interior
+            <span className="ml-2 flex flex-col gap-1 text-[11px] uppercase tracking-[0.24em] text-paper/40">
+              <span>@zema.interior</span>
+              <a
+                href={CONTACT.github}
+                target="_blank"
+                rel="noreferrer"
+                className="link-line w-max text-bronze-soft/80 transition-colors hover:text-bronze-soft"
+              >
+                github.com/{CONTACT.githubHandle}
+              </a>
             </span>
           </div>
 
