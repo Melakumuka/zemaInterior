@@ -13,7 +13,7 @@ const stroke = {
 export const Logo = (p: P) => (
   <svg viewBox="0 0 44 44" {...stroke} {...p}>
     <rect x="3" y="3" width="38" height="38" />
-    <path d="M13 31V14l9 9 9-9v17" strokeWidth={2} />
+    <path d="M13 14h18L13 31h18" strokeWidth={2} />
   </svg>
 );
 

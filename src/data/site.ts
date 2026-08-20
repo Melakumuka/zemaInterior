@@ -18,15 +18,15 @@ export const PROJECTS: Project[] = [
     id: "royal-garden",
     name: "Royal Garden",
     type: "Interior design",
-    category: "Penthouse · Wilanów",
-    location: "Warsaw, Wilanów",
+    category: "Penthouse · Bole",
+    location: "Addis Ababa, Bole",
     area: "128 m²",
     year: "2025",
     status: "Completed",
     scope: ["Concept", "Design", "Documentation", "Turn-key finishing"],
     materials: ["Sage velvet", "Travertine", "Brushed brass", "Oak herringbone"],
     description:
-      "A penthouse floating above a private garden in Wilanów. Floor-to-ceiling glass pulls the greenery inside, while sage velvet, travertine and brushed brass keep the palette grounded. The whole south elevation opens to the living zone, so daylight does most of the work.",
+      "A penthouse above a private garden courtyard in Bole. Floor-to-ceiling glass pulls the greenery inside, while sage velvet, travertine and brushed brass keep the palette grounded. The whole south elevation opens to the living zone, so the highland light does most of the work.",
     image:
       "https://image.qwenlm.ai/generated-images/5c9940e2-73eb-4745-b9ba-db2e6a9bae17/_result.png",
   },
@@ -34,8 +34,8 @@ export const PROJECTS: Project[] = [
     id: "essence",
     name: "Essence",
     type: "Interior design",
-    category: "Apartment · Mokotów",
-    location: "Warsaw, Mokotów",
+    category: "Apartment · Kazanchis",
+    location: "Addis Ababa, Kazanchis",
     area: "62 m²",
     year: "2024",
     status: "Completed",
@@ -50,15 +50,15 @@ export const PROJECTS: Project[] = [
     id: "shades",
     name: "Shades",
     type: "Interior design",
-    category: "Apartment · Śródmieście",
-    location: "Warsaw, Śródmieście",
+    category: "Apartment · Gerji",
+    location: "Addis Ababa, Gerji",
     area: "84 m²",
     year: "2024",
     status: "Completed",
     scope: ["Concept", "Design", "Lighting scenes", "Turn-key finishing"],
     materials: ["Charcoal plaster", "Walnut", "Cognac leather", "Smoked glass"],
     description:
-      "An evening apartment for a film producer in the city centre. Charcoal plaster and walnut absorb the day's noise; layered LEDs, cognac leather and smoked glass take over after dark. Every source is dimmable, every scene programmable.",
+      "An evening apartment for a film producer in Gerji. Charcoal plaster and walnut absorb the day's noise; layered LEDs, cognac leather and smoked glass take over after dark. Every source is dimmable, every scene programmable.",
     image:
       "https://image.qwenlm.ai/generated-images/610dabaf-76e9-4e98-a5b2-44dbc16f02f5/_result.png",
   },
@@ -66,15 +66,15 @@ export const PROJECTS: Project[] = [
     id: "sable",
     name: "Sable",
     type: "Interior design",
-    category: "Master suite · Konstancin",
-    location: "Konstancin-Jeziorna",
+    category: "Master suite · Summit",
+    location: "Addis Ababa, Summit",
     area: "46 m²",
     year: "2023",
     status: "Completed",
     scope: ["Concept", "Design", "Joinery", "Styling"],
     materials: ["Oatmeal linen", "Travertine", "Curved upholstery", "Wool carpet"],
     description:
-      "A master suite in a Konstancin villa, rebuilt around morning light. Oatmeal linen, a curved headboard and travertine night tables soften the wake-up; blackout layers keep it entirely optional.",
+      "A master suite in a Summit villa, rebuilt around morning light. Oatmeal linen, a curved headboard and travertine night tables soften the wake-up; blackout layers keep it entirely optional.",
     image:
       "https://image.qwenlm.ai/generated-images/d0dd6608-b679-42ca-a666-851563428510/_result.png",
   },
@@ -82,8 +82,8 @@ export const PROJECTS: Project[] = [
     id: "moonstone",
     name: "Moonstone",
     type: "Interior design",
-    category: "Bathing suite · Żoliborz",
-    location: "Warsaw, Żoliborz",
+    category: "Bathing suite · Old Airport",
+    location: "Addis Ababa, Old Airport",
     area: "14 m²",
     year: "2025",
     status: "Completed",
@@ -98,15 +98,15 @@ export const PROJECTS: Project[] = [
     id: "aura",
     name: "Aura",
     type: "Interior design",
-    category: "Dining room · Izabelin",
-    location: "Izabelin, Kampinos",
+    category: "Dining room · CMC",
+    location: "Addis Ababa, CMC",
     area: "38 m²",
     year: "2023",
     status: "Completed",
     scope: ["Concept", "Design", "Custom lighting", "Styling"],
     materials: ["Alabaster", "Dark oak", "Warm plaster", "Ceramic"],
     description:
-      "A dining room for long evenings near the Kampinos forest. Arched alcoves hold the glow of three alabaster pendants; dark oak and warm plaster keep the room candle-lit even at full power.",
+      "A dining room for long evenings on the CMC heights. Arched alcoves hold the glow of three alabaster pendants; dark oak and warm plaster keep the room candle-lit even at full power.",
     image:
       "https://image.qwenlm.ai/generated-images/1441db40-ad1c-4307-a08d-90218a029870/_result.png",
   },
@@ -114,15 +114,15 @@ export const PROJECTS: Project[] = [
     id: "otto",
     name: "Otto",
     type: "Interior design",
-    category: "Compact apartment · Wola",
-    location: "Warsaw, Wola",
+    category: "Compact apartment · Mexico",
+    location: "Addis Ababa, Mexico Square",
     area: "54 m²",
     year: "2026",
     status: "In implementation",
     scope: ["Concept", "Design", "Documentation", "Turn-key finishing"],
     materials: ["Oak millwork", "Graphite steel", "Linen", "Terrazzo"],
     description:
-      "A compact Wola apartment that refuses to feel small. One oak millwork wall carries the kitchen, wardrobe, desk and pantry; a graphite core hides the utilities. Fifty-four square metres, zero wasted centimetres.",
+      "A compact apartment off Mexico Square that refuses to feel small. One oak millwork wall carries the kitchen, wardrobe, desk and pantry; a graphite core hides the utilities. Fifty-four square metres, zero wasted centimetres.",
     image:
       "https://image.qwenlm.ai/generated-images/77f11e68-188e-4e80-a4e2-200240c21b32/_result.png",
   },
@@ -130,15 +130,15 @@ export const PROJECTS: Project[] = [
     id: "etoile",
     name: "Etoile",
     type: "Interior design",
-    category: "Tenement apartment · Powiśle",
-    location: "Warsaw, Powiśle",
+    category: "Garden villa · Piassa",
+    location: "Addis Ababa, Piassa",
     area: "96 m²",
     year: "2022",
     status: "Completed",
-    scope: ["Concept", "Conservation works", "Design", "Turn-key finishing"],
-    materials: ["Restored mouldings", "Herringbone parquet", "Brass", "Dusty-blue velvet"],
+    scope: ["Concept", "Restoration works", "Design", "Turn-key finishing"],
+    materials: ["Restored parquet", "Deep veranda", "Brass", "Dusty-blue velvet"],
     description:
-      "A pre-war Powiśle apartment restored, not renovated. Mouldings and herringbone were repaired by conservators; the new layer — brass, dusty-blue velvet, honed marble — reads as a respectful second chapter.",
+      "A mid-century garden villa in Piassa, restored rather than renovated. Original parquet, high ceilings and the deep veranda were repaired by local craftspeople; the new layer — brass, dusty-blue velvet, honed stone — reads as a respectful second chapter.",
     image:
       "https://image.qwenlm.ai/generated-images/58fb0dce-6bce-4eb6-ba07-56ec1012855f/_result.png",
   },
@@ -146,15 +146,15 @@ export const PROJECTS: Project[] = [
     id: "sommet",
     name: "Sommet",
     type: "Interior design",
-    category: "Roof loft · Praga",
-    location: "Warsaw, Praga-Północ",
+    category: "Top-floor flat · Sarbet",
+    location: "Addis Ababa, Sarbet",
     area: "71 m²",
     year: "2023",
     status: "Completed",
     scope: ["Concept", "Design", "Skylight works", "Turn-key finishing"],
     materials: ["Honest beams", "Skylights", "Pale oak", "Linen"],
     description:
-      "The top floor of a Praga tenement, opened to the roof. Skylights replaced dead corners, the beams stayed honest, and a window-seat reading nook now owns the best view in the building.",
+      "The top floor of a Sarbet block, opened to the sky. Skylights replaced dead corners, the timber structure stayed honest, and a window-seat reading nook now owns the best view of the Entoto hills.",
     image:
       "https://image.qwenlm.ai/generated-images/3920427b-c9bb-4b29-8f7d-a4e870a580ed/_result.png",
   },
@@ -164,24 +164,21 @@ export const STUDIO_IMAGE =
   "https://image.qwenlm.ai/generated-images/aa7ef201-f55b-4255-86c1-952ba37c3091/_result.png";
 
 export const CONTACT = {
-  address: "ul. Wiejska 11 lok. 16, 00-480 Warszawa",
-  phoneDisplay: "+48 732 059 505",
-  phoneHref: "tel:+48732059505",
-  email: "kontakt@moovin.pl",
-  hours: "Mon – Fri · 9:00 – 17:00",
+  address: "Bole, Addis Ababa, Ethiopia",
+  phoneDisplay: "+251 718 044 064",
+  phoneHref: "tel:+251718044064",
+  email: "info@zemainteriors.et",
+  hours: "Mon – Sat · 8:30 – 18:00",
   socials: [
-    { name: "Instagram", url: "https://www.instagram.com/moovin_interiors/" },
-    { name: "Facebook", url: "https://www.facebook.com/MoovinInteriors/" },
-    { name: "LinkedIn", url: "https://www.linkedin.com/company/moovin-interiors/" },
+    { name: "Instagram", url: "https://www.instagram.com/" },
+    { name: "Facebook", url: "https://www.facebook.com/" },
+    { name: "LinkedIn", url: "https://www.linkedin.com/" },
   ],
 };
 
 export const LANGUAGES = [
   { code: "EN", label: "English", active: true },
-  { code: "PL", label: "Polski", active: false },
-  { code: "UK", label: "Українська", active: false },
-  { code: "ZH", label: "中文", active: false },
-  { code: "KO", label: "한국어", active: false },
+  { code: "AM", label: "አማርኛ", active: false },
 ];
 
 export const NAV = [
@@ -197,9 +194,9 @@ export const MARQUEE_ITEMS = [
   "Interior design",
   "Concierge model",
   "Turn-key finishing",
-  "Architecture",
+  "Finishing works",
   "Bespoke joinery",
-  "Warsaw — PL",
+  "Addis Ababa — ET",
 ];
 
 export interface Service {
@@ -220,13 +217,13 @@ export const SERVICES: Service[] = [
     tags: ["Construction drawings", "Installation plans", "Joinery details", "Cost schedule"],
   },
   {
-    title: "Turn-key finishing",
+    title: "Turn-key finishing works",
     desc: "Our vetted crews build what we drew. We run the schedule, order the materials, supervise every trade and report weekly with photos — you visit when it's pleasant, not when it's stressful.",
     tags: ["Vetted crews", "Site supervision", "Weekly photo reports", "Budget control"],
   },
   {
     title: "Furniture & bespoke joinery",
-    desc: "Kitchens, wardrobes and built-ins produced to the millimetre with partner workshops, plus curated loose furniture and textiles chosen to survive real life.",
+    desc: "Kitchens, wardrobes and built-ins produced to the millimetre with partner workshops in Addis, plus curated loose furniture and textiles chosen to survive real life.",
     tags: ["Custom kitchens", "Built-in storage", "Loose furniture", "Textiles"],
   },
   {
@@ -245,7 +242,7 @@ export interface ProcessStep {
 export const PROCESS: ProcessStep[] = [
   {
     title: "Consultation & quote",
-    text: "We meet on site or in the studio, listen, measure and price the scope. You leave with a clear offer and a realistic timeline.",
+    text: "We meet on site or at the studio in Bole, listen, measure and price the scope. You leave with a clear offer and a realistic timeline.",
     icon: "compass",
   },
   {
@@ -273,21 +270,21 @@ export const PROCESS: ProcessStep[] = [
 export const TESTIMONIALS = [
   {
     quote:
-      "Moovin took our fifty-four square metres and handed back a home that feels twice the size — and they finished two weeks early.",
-    name: "Marta & Paweł",
-    detail: "Private clients · Wola, project Otto",
+      "Zema took our fifty-four square metres and handed back a home that feels twice the size — and they finished two weeks early.",
+    name: "Selam & Dawit",
+    detail: "Private clients · Mexico, project Otto",
   },
   {
     quote:
       "One contract, one team, zero chaos. The concierge model is simply what renovation should feel like — we never chased a single contractor.",
-    name: "Tomasz W.",
-    detail: "Private investor · Wilanów, project Royal Garden",
+    name: "Yonas T.",
+    detail: "Private investor · Bole, project Royal Garden",
   },
   {
     quote:
       "They listened first and designed second. Every material still feels right two years in, which says more than any rendering ever could.",
-    name: "Zofia L.",
-    detail: "Homeowner · Powiśle, project Etoile",
+    name: "Bethlehem A.",
+    detail: "Homeowner · Piassa, project Etoile",
   },
 ];
 
@@ -324,9 +321,9 @@ export const POSTS: Post[] = [
   {
     date: "03 Oct 2025",
     category: "Stories",
-    title: "Tenement soul: restoring pre-war apartments in Warsaw",
+    title: "Villa soul: restoring mid-century garden villas in Piassa",
     excerpt:
-      "Mouldings, parquet and 3.2-metre ceilings deserve conservators, not angle grinders. Notes from the Etoile project in Powiśle.",
+      "Original parquet, deep verandas and three-metre ceilings deserve craftspeople, not angle grinders. Notes from the Etoile project in Piassa.",
     read: "5 min read",
     image:
       "https://image.qwenlm.ai/generated-images/58fb0dce-6bce-4eb6-ba07-56ec1012855f/_result.png",
@@ -344,8 +341,8 @@ export const POSTS: Post[] = [
 ];
 
 export const STATS = [
-  { value: 14, suffix: "", label: "years of practice" },
-  { value: 260, suffix: "+", label: "interiors delivered" },
-  { value: 41, suffix: " 000 m²", label: "designed & finished" },
+  { value: 12, suffix: "", label: "years of practice" },
+  { value: 180, suffix: "+", label: "interiors delivered" },
+  { value: 27, suffix: " 000 m²", label: "designed & finished" },
   { value: 98, suffix: "%", label: "clients who recommend us" },
 ];

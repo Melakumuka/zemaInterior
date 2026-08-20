@@ -26,7 +26,7 @@ export default function Journal() {
             </h2>
             <p className="reveal mt-6 max-w-sm text-[15px] leading-relaxed text-ink/65" style={{ transitionDelay: "170ms" }}>
               Materials tested on real sites, mistakes we'd rather you didn't make,
-              and the occasional love letter to Warsaw tenements.
+              and the occasional love letter to Piassa's garden villas.
             </p>
 
             <div className="reveal relative mt-10 hidden overflow-hidden lg:block" style={{ transitionDelay: "240ms" }}>
@@ -80,7 +80,7 @@ export default function Journal() {
           </div>
 
           <button
-            onClick={() => toast("The complete journal is published on moovininteriors.pl — these are highlights.")}
+            onClick={() => toast("The complete journal is published on the studio blog — these are highlights.")}
             className="reveal group mt-10 inline-flex items-center gap-4 text-[12px] font-semibold uppercase tracking-[0.26em] text-ink transition-colors hover:text-bronze"
             style={{ transitionDelay: "120ms" }}
           >

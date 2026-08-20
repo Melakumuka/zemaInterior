@@ -29,7 +29,7 @@ export default function TopBar({ collapsed }: { collapsed: boolean }) {
           <span className="flex items-center gap-2 whitespace-nowrap">
             <IconPin className="h-3.5 w-3.5 text-bronze-soft" />
             <span className="hidden lg:inline">{CONTACT.address}</span>
-            <span className="lg:hidden">Warsaw, PL</span>
+            <span className="lg:hidden">Addis Ababa, ET</span>
           </span>
           <a
             href={`mailto:${CONTACT.email}`}
@@ -72,7 +72,7 @@ export default function TopBar({ collapsed }: { collapsed: boolean }) {
                 onClick={() =>
                   l.active
                     ? toast("You're already viewing the English version.")
-                    : toast(`${l.label} edition lives on moovininteriors.pl — this demo is English only.`)
+                    : toast(`${l.label} edition is coming soon — this demo is English only.`)
                 }
                 className={`transition-colors duration-300 ${
                   l.active

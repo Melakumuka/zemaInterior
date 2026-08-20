@@ -23,16 +23,16 @@ export default function Footer({ onOpen }: { onOpen: (p: Project) => void }) {
             <a href="#home" className="group inline-flex items-center gap-3">
               <Logo className="h-11 w-11 text-bronze-soft transition-transform duration-500 group-hover:rotate-90" />
               <span className="leading-none">
-                <span className="block font-display text-2xl tracking-[0.22em]">MOOVIN</span>
-                <span className="mt-1 block text-[9px] font-medium uppercase tracking-[0.42em] text-bronze-soft">
-                  Interiors
+                <span className="block font-display text-2xl tracking-[0.22em]">ZEMA</span>
+                <span className="mt-1 block text-[8px] font-medium uppercase tracking-[0.3em] text-bronze-soft">
+                  Interior &amp; Finishing Works
                 </span>
               </span>
             </a>
             <p className="mt-6 max-w-xs text-sm leading-relaxed text-paper/55">
-              A Warsaw architectural studio combining interior design with turn-key
-              finishing in the Concierge model — one team from the first sketch to
-              the final key.
+              An Addis Ababa studio combining interior design with turn-key
+              finishing works in the Concierge model — one team from the first
+              sketch to the final key.
             </p>
             <div className="mt-7 flex items-center gap-4">
               {SOCIAL.map(({ name, url, Icon }) => (
@@ -107,13 +107,13 @@ export default function Footer({ onOpen }: { onOpen: (p: Project) => void }) {
         {/* giant wordmark */}
         <div className="reveal pointer-events-none mt-16 select-none overflow-hidden" aria-hidden style={{ transitionDelay: "100ms" }}>
           <p className="outline-word -mb-[0.22em] whitespace-nowrap text-center font-display leading-none" style={{ fontSize: "clamp(6rem, 17vw, 17rem)" }}>
-            MOOVIN
+            ZEMA
           </p>
         </div>
 
         <div className="relative border-t border-paper/10 py-7">
           <div className="flex flex-wrap items-center justify-between gap-4 text-[11px] uppercase tracking-[0.2em] text-paper/40">
-            <p>© 2026 Moovin Interiors · Design office Warsaw</p>
+            <p>© 2026 Zema Interior and Finishing Works · Bole, Addis Ababa</p>
             <div className="flex items-center gap-6">
               <button onClick={() => toast("Privacy policy — available on the live site.")} className="link-line transition-colors hover:text-bronze-soft">
                 Privacy policy

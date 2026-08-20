@@ -36,9 +36,9 @@ export default function Header({ active }: { active: string }) {
             <a href="#home" className="group flex items-center gap-3 text-paper">
               <Logo className="h-10 w-10 text-bronze-soft transition-transform duration-500 group-hover:rotate-90" />
               <span className="leading-none">
-                <span className="block font-display text-xl tracking-[0.22em]">MOOVIN</span>
-                <span className="mt-1 block text-[9px] font-medium uppercase tracking-[0.42em] text-bronze-soft">
-                  Interiors
+                <span className="block font-display text-xl tracking-[0.22em]">ZEMA</span>
+                <span className="mt-1 block text-[8px] font-medium uppercase tracking-[0.3em] text-bronze-soft">
+                  Interior &amp; Finishing Works
                 </span>
               </span>
             </a>
@@ -87,7 +87,7 @@ export default function Header({ active }: { active: string }) {
         <div className="flex items-center justify-between px-6 py-6 lg:px-10">
           <span className="flex items-center gap-3">
             <Logo className="h-10 w-10 text-bronze-soft" />
-            <span className="font-display text-xl tracking-[0.22em]">MOOVIN</span>
+            <span className="font-display text-xl tracking-[0.22em]">ZEMA</span>
           </span>
           <button
             onClick={() => setOpen(false)}

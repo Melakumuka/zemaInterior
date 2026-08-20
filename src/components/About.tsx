@@ -87,7 +87,7 @@ export default function About() {
         {/* copy column */}
         <div className="lg:col-span-5">
           <p className="reveal flex items-center gap-3 text-[11px] font-semibold uppercase tracking-[0.34em] text-bronze">
-            <IconSpark className="h-3.5 w-3.5" /> Design office · Warsaw
+            <IconSpark className="h-3.5 w-3.5" /> Design &amp; finishing · Addis Ababa
           </p>
           <h2
             className="reveal mt-6 font-display uppercase leading-[1.02] tracking-tight text-ink"
@@ -96,8 +96,8 @@ export default function About() {
             Where the drawing board meets the building site.
           </h2>
           <p className="reveal mt-8 max-w-md text-[15px] leading-relaxed text-ink/70" style={{ transitionDelay: "180ms" }}>
-            Moovin Interiors is a Warsaw architectural studio that refuses to throw
-            a concept over the wall. We design the interior, produce its technical
+            Zema Interior and Finishing Works is an Addis Ababa studio that refuses
+            to throw a concept over the wall. We design the interior, produce its technical
             documentation, and then build it with our own finishing crews — one
             team, one contract, one point of contact from the first sketch to the
             final key.
@@ -136,12 +136,12 @@ export default function About() {
             <div className="group relative overflow-hidden">
               <img
                 src={STUDIO_IMAGE}
-                alt="Material samples and sketches in the Moovin Interiors studio"
+                alt="Material samples and sketches in the Zema studio in Bole"
                 className="aspect-[4/3] w-full object-cover transition-transform duration-[1400ms] ease-out group-hover:scale-[1.05]"
                 loading="lazy"
               />
               <span className="absolute bottom-4 left-4 bg-ink/85 px-4 py-2 text-[10px] font-medium uppercase tracking-[0.3em] text-paper/85 backdrop-blur-sm">
-                The studio · ul. Wiejska 11
+                The studio · Bole, Addis Ababa
               </span>
             </div>
 
@@ -153,8 +153,8 @@ export default function About() {
                 </defs>
                 <circle cx="60" cy="60" r="58" className="fill-paper" />
                 <circle cx="60" cy="60" r="58" fill="none" stroke="currentColor" strokeOpacity="0.2" />
-                <text className="fill-ink text-[9.5px] font-semibold uppercase" style={{ letterSpacing: "2.6px" }}>
-                  <textPath href="#circ">from concept to keys · moovin interiors ·</textPath>
+                <text className="fill-ink text-[9px] font-semibold uppercase" style={{ letterSpacing: "2px" }}>
+                  <textPath href="#circ">from concept to keys · zema interior ·</textPath>
                 </text>
               </svg>
               <IconSpark className="absolute left-1/2 top-1/2 h-5 w-5 -translate-x-1/2 -translate-y-1/2 text-bronze" />

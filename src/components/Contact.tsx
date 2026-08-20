@@ -121,7 +121,7 @@ export default function Contact() {
               </a>
             ))}
             <span className="ml-2 text-[11px] uppercase tracking-[0.24em] text-paper/40">
-              @moovin_interiors
+              @zema.interior
             </span>
           </div>
 
@@ -145,7 +145,7 @@ export default function Contact() {
                 <circle r="13" fill="none" stroke="#c39a5e" strokeWidth="1.4" />
               </g>
               <text x="262" y="166" textAnchor="middle" fontSize="10" letterSpacing="3" fill="rgba(241,238,230,0.7)">
-                UL. WIEJSKA 11 · WARSZAWA
+                BOLE ROAD · ADDIS ABABA
               </text>
             </svg>
           </div>
